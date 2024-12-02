@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>Genuwind Customs LLC</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Rafsan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Genuwind Customs LLC" />
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Stylesheets and Font Icons -->
+    <link rel="stylesheet" href="css/vendors.min.css" />
+    <link rel="stylesheet" href="css/icon.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Slick Slider CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+  </head>
+  <body>
+    <!-- Team Section -->
+    <section class="team-gc">
+      <div class="container container-fluid p-0">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <h2 class="section-title-gc text-center text-uppercase-gc">
+              Genuwind Customs — Where Research Meets Rhythm
+            </h2>
+          </div>
+          <div class="col-xl-2 col-lg-2">
+            <h3 class="text-uppercase-gc">Our Team</h3>
+          </div>
+          <div class="col-lg-10">
+            <ul id="teamSlider">
+              <li data-member="shivam">
+                <div class="appear">
+                  <img src="img/team.png" alt="Shivam Patel" />
+                </div>
+              </li>
+              <li data-member="john">
+                <div class="appear">
+                  <img src="img/team2.png" alt="John Doe" />
+                </div>
+              </li>
+
+              <li data-member="jane">
+                <div class="appear">
+                  <img src="img/team3.png" alt="Jane Smith" />
+                </div>
+              </li>
+              <li data-member="john">
+                <div class="appear">
+                  <img src="img/team2.png" alt="John Doe" />
+                </div>
+              </li>
+              <li data-member="shivam">
+                <div class="appear">
+                  <img src="img/team.png" alt="Shivam Patel" />
+                </div>
+              </li>
+              <li data-member="jane">
+                <div class="appear">
+                  <img src="img/team3.png" alt="Jane Smith" />
+                </div>
+              </li>
+              <li data-member="john">
+                <div class="appear">
+                  <img src="img/team2.png" alt="John Doe" />
+                </div>
+              </li>
+              <!-- Add additional team members as needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Member Details Section -->
+    <section class="shivam">
+      <div class="container container-fluid p-0">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="offset-lg-0 offset-md-1 position-relative">
+              <div class="w-75" data-animation-delay="200">
+                <img
+                  src="img/shivam.png"
+                  alt="Shivam Patel"
+                  class="w-100 team-photo"
+                  id="teamPhoto"
+                />
+              </div>
+              <div
+                class="go-below-gc w-55 overflow-hidden position-absolute right-15px bottom-minus-50px"
+              >
+                <img
+                  src="img/shivam_bg.png"
+                  alt=""
+                  class="box-shadow-quadruple-large w-100"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="team-item">
+              <h1 class="text-uppercase-gc" id="memberName">Shivam Patel</h1>
+              <h3 class="text-uppercase-gc" id="memberTitle">
+                Founder, Lead Engineer
+              </h3>
+              <blockquote class="quote">
+                “As a saxophonist, I’m constantly amazed by technological
+                developments...”
+              </blockquote>
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="bio-1" id="memberBio1">
+                    Starting his first musical-product designs at 14 years
+                    old...
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <p class="bio-2" id="memberBio2">
+                    Having been classically trained on the saxophone at NYU...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/vendors.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        // Initialize Slick Slider
+        $("#teamSlider").slick({
+          slidesToShow: 6,
+          //slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          arrows: true,
+        });
+
+        // Team Data
+        const teamData = {
+          shivam: {
+            name: "Shivam Patel",
+            title: "Founder, Lead Engineer",
+            bio1: "Starting his first musical-product designs at 14 years old, Shivam has an itch for developing highly innovative products. He has developed four patents and numerous technologies under Genuwind Customs...",
+            bio2: "Having been classically trained on the saxophone at NYU, Shivam is also in touch with the freelancing side of music...",
+            img: "img/shivam.png",
+          },
+          john: {
+            name: "John Doe",
+            title: "Co-Founder, Sound Engineer",
+            bio1: "John's love for sound engineering has led him to collaborate with top artists. He has over a decade of experience...",
+            bio2: "With a background in electrical engineering, John blends technical expertise with artistic sound design...",
+            img: "img/team2.png",
+          },
+          jane: {
+            name: "Jane Smith",
+            title: "Product Designer",
+            bio1: "Jane is passionate about creating ergonomic and sustainable designs. She has won multiple awards...",
+            bio2: "Her designs emphasize both functionality and aesthetic appeal, making her a valuable part of the team...",
+            img: "img/team3.png",
+          },
+          // Add additional team members here
+        };
+
+        // Event listener for slide click
+        $("#teamSlider li").on("click", function () {
+          const memberKey = $(this).data("member");
+          const memberData = teamData[memberKey];
+
+          if (memberData) {
+            // Update member info in the Shivam section
+            $("#memberName").text(memberData.name);
+            $("#memberTitle").text(memberData.title);
+            $("#memberBio1").text(memberData.bio1);
+            $("#memberBio2").text(memberData.bio2);
+            $("#teamPhoto").attr("src", memberData.img); // Update image
+          }
+          // Resume autoplay after click
+          $("#teamSlider").slick("slickPlay");
+        });
+      });
+    </script>
+  </body>
+</html>

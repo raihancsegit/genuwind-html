@@ -1,0 +1,199 @@
+<svg class="g-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 738 274">
+  <style type="text/css">
+    .g-logo .center-logo-extra-line-draw-1 {
+      stroke-dasharray: 230;
+      stroke-dashoffset: 230;
+      opacity: 0;
+      animation: 0.4s draw-1 forwards linear;
+    }
+    @keyframes draw-1 {
+      0% { stroke-dashoffset: 230; opacity: 0; }
+      50% { stroke-dashoffset: 345; opacity: 1; }
+      100% { stroke-dashoffset: 690; opacity: 1; }
+    }
+    .g-logo .center-logo-extra-line-draw-2 {
+      stroke-dasharray: 260;
+      stroke-dashoffset: 260;
+      animation: 0.4s draw-2 forwards linear 0.2s;
+    }
+    @keyframes draw-2 {
+      0% { stroke-dashoffset: 260; }
+      100% { stroke-dashoffset: 780; }
+    }
+    .g-logo .center-logo-extra-line-draw-3 {
+      stroke-dasharray: 130;
+      stroke-dashoffset: 130;
+      opacity: 0.15;
+      animation: 0.75s draw-3 forwards linear 0.5s;
+    }
+    @keyframes draw-3 {
+      0% { stroke-dashoffset: 390; }
+      100% { stroke-dashoffset: 130; }
+    }
+    .g-logo .rotate-extra-line {
+      transform-origin: 35% 39%;
+      animation: 0.25s rotate-line forwards linear 0.75s;
+    }
+    @keyframes rotate-line {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(180deg); }
+    }
+    .g-logo .center-logo-line-draw {
+      stroke-dasharray: 700;
+      stroke-dashoffset: 700;
+      animation: 2s draw-4 forwards linear 0.4s;
+    }
+    @keyframes draw-4 {
+      0% { stroke-dashoffset: 700; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .g-logo .center-logo-dot-1 {
+      opacity: 0;
+      animation: 0.5s dot-show forwards linear 1.8s;
+    }
+    .g-logo .center-logo-dot-2 {
+      opacity: 0;
+      animation: 0.5s dot-show forwards linear 2s;
+    }
+    @keyframes dot-show {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .g-logo .center-logo-anim {
+      transform-origin: 52.55% 52.38%;
+      transform: scale(0.8);
+      animation: 4s resize-logo forwards ease-in-out;
+    }
+    @keyframes resize-logo {
+      0% { transform: scale(0.8); }
+      70% { transform: scale(1.05); }
+      100% { transform: scale(0.5); }
+    }
+    .g-logo .logo-text {
+      transform-origin: 50% 50%;
+      transform: scale(1.25);
+      animation: 1.5s resize-text forwards ease-in-out 2.5s;
+    }
+    @keyframes resize-text {
+      0% { transform: scale(1.25); }
+      100% { transform: scale(1.0); }
+    }
+    .g-logo .letter-g {
+      opacity: 0;
+      animation: 0.15s move-letters-left forwards ease-in 2.3s;
+    }
+    .g-logo .letter-e {
+      opacity: 0;
+      animation: 0.15s move-letters-left forwards ease-in 2.4s;
+    }
+    .g-logo .letter-n-1 {
+      opacity: 0;
+      animation: 0.15s move-letters-left forwards ease-in 2.5s;
+    }
+    .g-logo .letter-u-1 {
+      opacity: 0;
+      animation: 0.2s move-letters-left forwards ease-in 2.6s;
+    }
+    .g-logo .letter-w {
+      opacity: 0;
+      animation: 0.2s move-letters-left forwards ease-in 2.9s;
+    }
+    .g-logo .letter-i {
+      opacity: 0;
+      animation: 0.2s move-letters-left forwards ease-in 3s;
+    }
+    .g-logo .letter-n-2 {
+      opacity: 0;
+      animation: 0.2s move-letters-left forwards ease-in 3.1s;
+    }
+    .g-logo .letter-d {
+      opacity: 0;
+      animation: 0.2s move-letters-left forwards ease-in 3.2s;
+    }
+    @keyframes move-letters-left {
+      0% { transform: translateX(6%); opacity: 0; }
+      1% { transform: translateX(6%); opacity: 1; }
+      100% { transform: translateX(0%); opacity: 1; }
+    }
+    .g-logo .letter-s-2 {
+      opacity: 0;
+      animation: 0.15s move-letters-right forwards ease-in 2.3s;
+    }
+    .g-logo .letter-m {
+      opacity: 0;
+      animation: 0.15s move-letters-right forwards ease-in 2.4s;
+    }
+    .g-logo .letter-o {
+      opacity: 0;
+      animation: 0.15s move-letters-right forwards ease-in 2.5s;
+    }
+    .g-logo .letter-t {
+      opacity: 0;
+      animation: 0.15s move-letters-right forwards ease-in 2.6s;
+    }
+    .g-logo .letter-s-1 {
+      opacity: 0;
+      animation: 0.2s move-letters-right forwards ease-in 2.8s;
+    }
+    .g-logo .letter-u-2 {
+      opacity: 0;
+      animation: 0.2s move-letters-right forwards ease-in 2.9s;
+    }
+    .g-logo .letter-c {
+      opacity: 0;
+      animation: 0.2s move-letters-right forwards ease-in 3s;
+    }
+    @keyframes move-letters-right {
+      0% { transform: translateX(-6%); opacity: 0; }
+      1% { transform: translateX(-6%); opacity: 1; }
+      100% { transform: translateX(0%); opacity: 1; }
+    }
+  </style>
+    <g class="logo-text">
+      <path class="letter-c" d="M482.5,152.74a14.21,14.21,0,0,1-10.1,3.71c-10,0-14-6.2-14-13.1,0-6.53,4.4-13.39,14-13.39a13.83,13.83,0,0,1,9.65,3.9l-3.68,3.5a8.8,8.8,0,0,0-6-2.09c-6,0-8.3,4.44-8.26,8.12s2.1,7.87,8.26,7.87a10.24,10.24,0,0,0,6.46-2.42Z" style="fill: #010101"/>
+      <path class="letter-u-2" d="M508.94,130.58v14.11c0,7.5-4.36,11.51-11.27,11.73S485,152.84,485,144.69V130.58h5.82v14.11c0,4.51,2.63,6.85,6.91,6.67,4-.25,5.41-2.88,5.41-6.67V130.58Z" style="fill: #010101"/>
+      <path class="letter-s-1" d="M529.33,136.64a9,9,0,0,0-6.08-2.13c-2.59,0-4.7,1.05-4.7,2.78,0,2.31,2.29,2.74,5.67,3,5.19.43,10.11,2.35,10.11,8.19,0,5.63-5.41,8.09-11.08,8.12-4.55,0-9.28-1.66-11.5-5.19l3.5-3.5a10.64,10.64,0,0,0,8,3.57c3.11,0,5.25-1.19,5.25-3,0-2.13-1.72-3.1-5.29-3.39-5.56-.5-10.52-1.84-10.44-7.8,0-5,5-7.68,10.4-7.68,4.06,0,7.1.86,9.8,3.89Z" style="fill: #010101"/>
+      <path class="letter-t" d="M543.41,135.56h-8v-5h21.82v5h-8V155.8h-5.82Z" style="fill: #010101"/>
+      <path class="letter-o" d="M572.44,156.42c-8.41,0-14.19-5-14.19-13.25s5.78-13.24,14.19-13.24,14.2,5,14.2,13.24S580.86,156.42,572.44,156.42Zm0-21.44a8.09,8.09,0,0,0-8.45,8.19c0,4.73,3.46,8.16,8.45,8.16s8.45-3.47,8.45-8.16S577.55,135,572.44,135Z" style="fill: #010101"/>
+      <path class="letter-m" d="M613.23,138.26l-8.11,9.82h-1.06l-7.85-9.89v17.65h-5.85V130.58h6.72l7.66,9.7,7.7-9.7h6.65v25.26h-5.86Z" style="fill: #010101"/>
+      <path class="letter-s-2" d="M639.85,136.64a9,9,0,0,0-6.08-2.13c-2.59,0-4.7,1.05-4.7,2.78,0,2.31,2.3,2.74,5.68,3,5.18.43,10.1,2.35,10.1,8.19,0,5.63-5.41,8.09-11.08,8.12-4.55,0-9.28-1.66-11.49-5.19l3.49-3.5a10.64,10.64,0,0,0,8,3.57c3.11,0,5.26-1.19,5.26-3,0-2.13-1.73-3.1-5.3-3.39-5.56-.5-10.52-1.84-10.44-7.8,0-5,5-7.68,10.4-7.68,4.06,0,7.1.86,9.8,3.89Z" style="fill: #010101"/>
+      <path class="letter-g" d="M107,156.26a15.46,15.46,0,0,1-5.54-1,13,13,0,0,1-4.38-2.73,12.59,12.59,0,0,1-2.91-4.18,13.92,13.92,0,0,1,0-10.51,12.48,12.48,0,0,1,2.92-4.17,13.16,13.16,0,0,1,4.43-2.74,16.89,16.89,0,0,1,11.66.16,12.08,12.08,0,0,1,4.55,3.26L114,137.88a9.14,9.14,0,0,0-3-2.16,8.87,8.87,0,0,0-3.56-.71,9.57,9.57,0,0,0-3.37.58,7.57,7.57,0,0,0-2.63,1.67,7.44,7.44,0,0,0-1.7,2.58,8.73,8.73,0,0,0-.6,3.3,8.64,8.64,0,0,0,.6,3.26,7.67,7.67,0,0,0,1.7,2.59,7.49,7.49,0,0,0,2.61,1.69,9.12,9.12,0,0,0,3.32.58,10.57,10.57,0,0,0,3.39-.56,9.81,9.81,0,0,0,3.21-1.91l3.34,4.25a15.37,15.37,0,0,1-4.81,2.39A18.45,18.45,0,0,1,107,156.26Zm4.89-4v-9.53h5.37V153Z" style="fill: #010101"/>
+      <path class="letter-e" d="M128.55,151.11h13.82v4.72H122.71V130.44h19.18v4.72H128.55Zm-.44-10.44h12.23v4.57H128.11Z" style="fill: #010101"/>
+      <path class="letter-n-1" d="M147,155.83V130.44h4.86l15,18.28h-2.35V130.44h5.8v25.39H165.5l-15-18.28h2.36v18.28Z" style="fill: #010101"/>
+      <path class="letter-u-1" d="M187.63,156.26c-3.61,0-6.42-1-8.45-3s-3.05-4.87-3.05-8.59V130.44H182v14q0,3.63,1.48,5.22a6.25,6.25,0,0,0,8.35,0q1.49-1.59,1.48-5.22v-14h5.8v14.22c0,3.72-1,6.59-3,8.59S191.23,156.26,187.63,156.26Z" style="fill: #010101"/>
+      <path class="letter-w" d="M211,155.83l-8.3-25.39h6.09L216,152.93H213l7.54-22.49H226l7.26,22.49h-2.94l7.4-22.49h5.62L235,155.83h-6.31l-6.42-19.73h1.67l-6.6,19.73Z" style="fill: #010101"/>
+      <path class="letter-i" d="M246.56,155.83V130.44h5.88v25.39Z" style="fill: #010101"/>
+      <path class="letter-n-2" d="M258.46,155.83V130.44h4.86l15,18.28h-2.36V130.44h5.8v25.39h-4.82l-15-18.28h2.36v18.28Z" style="fill: #010101"/>
+      <path class="letter-d" d="M287.76,155.83V130.44H299.3a16.08,16.08,0,0,1,7.28,1.58,12,12,0,0,1,4.94,4.41,13.5,13.5,0,0,1,0,13.4,12,12,0,0,1-4.94,4.42,16.08,16.08,0,0,1-7.28,1.58Zm5.88-4.82H299a9.36,9.36,0,0,0,4.4-1,7,7,0,0,0,2.9-2.73,8.92,8.92,0,0,0,0-8.36,6.93,6.93,0,0,0-2.9-2.72,9.49,9.49,0,0,0-4.4-1h-5.37Z" style="fill: #010101"/>
+    </g>
+    <g class="center-logo-anim">
+      <circle class="center-logo-dot-2" cx="475.79" cy="154.58" r="9.81" style="fill: #010101"/>
+      <circle class="center-logo-dot-1" cx="475.79" cy="115.74" r="9.81" style="fill: #010101"/>
+      <clipPath id="main-center-logo">
+        <path class="center-logo-big" d="M452.48,115.21a43.09,43.09,0,0,0-19.43-19.36c-9.78-4.73-24.67-8-44-.66,0,0-26.68,11.09-23.3,35.27a20.06,20.06,0,0,0,6,12,17.91,17.91,0,0,0,6.54,3.93,7.55,7.55,0,0,1,5.2,7.13v4.94a1.92,1.92,0,0,1-1,1.68,45.47,45.47,0,0,1-7.21,3.2,58.43,58.43,0,0,1-18.93,3.11,52.29,52.29,0,0,1-19.21-3.39,43.91,43.91,0,0,1-25-24.49,48.12,48.12,0,0,1-3.48-18.46,48.6,48.6,0,0,1,3.48-18.64,43.08,43.08,0,0,1,9.89-14.69,44.29,44.29,0,0,1,15.26-9.61,53.25,53.25,0,0,1,19.21-3.39,51.47,51.47,0,0,1,19.68,3.67,49.56,49.56,0,0,1,14.28,9.14,3.49,3.49,0,0,0,4.78-.08l10.63-10.36a3.46,3.46,0,0,0,.08-4.89,59.65,59.65,0,0,0-20.35-13.49,79.85,79.85,0,0,0-30.23-5.46,78.82,78.82,0,0,0-28.44,5,68.73,68.73,0,0,0-22.7,14.13A63.22,63.22,0,0,0,289.3,93,68.67,68.67,0,0,0,284,120.11a68.68,68.68,0,0,0,5.27,27.13,63.83,63.83,0,0,0,14.88,21.56,67.68,67.68,0,0,0,22.51,14.13,78.08,78.08,0,0,0,28.34,5,92.55,92.55,0,0,0,27.6-4.24,73.21,73.21,0,0,0,21.25-10.43,6.66,6.66,0,0,0,2.74-5.46l-.15-36a12.44,12.44,0,0,0,0-1.93v0h0a13,13,0,0,0-6.86-10.63c-3.75-2-9-3-16.32-1,0,0-10.79,3.09-6.77-5.15a27.35,27.35,0,0,1,17.55-14.33c19-5.37,37.83,8.76,39.06,28.51A76.73,76.73,0,0,1,431,149a109.07,109.07,0,0,1-23.66,46.46c-10.08,11.78-25.09,26-44.71,35.59a2,2,0,0,0-1.07,2.43,2,2,0,0,0,2.61,1.16C378.44,228.5,484.7,178.19,452.48,115.21Z" style="fill: #ed1c24"/>
+      </clipPath>
+      <g style="clip-path: url(#main-center-logo)">
+        <path class="center-logo-line-draw" d="M401.72,82.15C399.61,80,363,49,328.51,66.27c-18,9-44.48,39.66-29.75,74.7,11.51,27.38,40.91,45.6,78.76,35.49,4.73-1.26,12.27-7.83,15.34-12.56,2.42-3.74,3.69-25.26,1.91-29.13-3.76-8.18-10.83,1.3-18.49-3.45-18.15-11.24,12.61-44.9,38.43-36.66,34.25,10.92,36.43,37.24,26.36,66.93-9.12,26.89-32.63,50.86-82.75,73.61" style="fill: none;stroke: #010101;stroke-miterlimit: 10;stroke-width: 30px"/>
+      </g>
+      <clipPath id="center-logo-extra-line-2">
+        <path d="M433.5,138.06c-.94,34.36-9.95,65.12-34.32,89.89-7.65,7.77-16.83,12.89-28.33,13.24-15.46.47-27.68-11-30.55-24.82a67.6,67.6,0,0,1-.06-22.76c1.16-3.82,2.34-4.3,5.86-3.44a105.8,105.8,0,0,0,10.61,3.14c3.56.84,4.81,2.66,4.5,6.4a38.4,38.4,0,0,0,.51,12.1c1.83,7.18,7.7,9.48,14.4,6.15,9.26-4.6,15.13-12.6,20-21.23,13.29-23.45,18.7-48.38,13.06-75.18A69.3,69.3,0,0,0,389.73,86c-2.32-2.3-1.87-3.74,0-5.74,3.07-3.32,6.16-6.64,9-10.16,2.18-2.69,3.85-2.15,6,0A92.15,92.15,0,0,1,431,119C432.23,125.4,432.72,132,433.5,138.06Z"/>
+      </clipPath>
+      <clipPath id="center-logo-extra-line-1">
+        <path d="M451.79,194.53C442.27,177.94,432,162.68,415,154.15h0A49.54,49.54,0,0,0,390.47,148c-9.67.09-18.76,2.58-26.36,8.39-19.32,14.75-26.85,33.68-24.27,56.88,1.82,16.36,15.71,28.52,31.74,28,4.09-.13,5.15-1.55,4.26-5.24-1-4.32-1.78-8.73-3.07-13-.43-1.41-1.91-3.22-3.34-3.5-4.11-.81-7-3.61-8-8.87-2-10.76,1-20.47,6.81-29.19A28.16,28.16,0,0,1,386,169.22c4.39-.85,9-1.78,14,.22,2.88,1.29,6.34,3.73,9.4,5.53,1.23.73,2.52,1.75,3.79,2.63,8.42,7,13.77,17.62,19.35,27.38,1.47,2.56,2.79,2.88,5.18,1.62,4-2.11,8-4.24,12.16-6.06C453.08,199.15,453.5,197.51,451.79,194.53Z"/>
+    </clipPath>
+      <g style="clip-path: url(#center-logo-extra-line-2)">
+        <path class="center-logo-extra-line-draw-2" d="M388,69.69c14,8.62,29.88,33.42,33.35,57,3.41,23,9.51,46.42-27.4,94.66-15.49,20.23-55.21,13.4-44.13-26.59a68.06,68.06,0,0,1,6-14.31" style="fill: none;stroke: #010101;stroke-miterlimit: 10;stroke-width: 30px"/>
+      </g>
+      <g style="clip-path: url(#center-logo-extra-line-1)">
+        <path class="center-logo-extra-line-draw-1" d="M376.64,231.85c-16.61,3.12-34.71-8.52-26.78-37.14,4.86-17.54,26.22-54.72,62.37-30.7,10.8,7.19,43.9,50.29,43.9,50.29" style="fill: none;stroke: #010101;stroke-miterlimit: 10;stroke-width: 30px"/>
+      </g>
+    </g>
+    <g class="rotate-extra-line">
+      <clipPath id="center-logo-extra-line-3">
+        <path id="extra-line" d="M330.81,116.89a43.07,43.07,0,0,0,4-17.25,44.28,44.28,0,0,0-3.38-17.71,53.34,53.34,0,0,0-10.62-16.37A51.32,51.32,0,0,0,304.7,53.68a49.5,49.5,0,0,0-16.42-4.22l.65-21.78a59.6,59.6,0,0,1,23.74,5.68,79.91,79.91,0,0,1,24.61,18.39A78.7,78.7,0,0,1,353,76a68.77,68.77,0,0,1,5.15,26.23,63.3,63.3,0,0,1-5.56,25.66" style="fill: #010101"/>
+      </clipPath>
+      <g style="clip-path: url(#center-logo-extra-line-3)">
+        <path class="center-logo-extra-line-draw-3" d="M281.47,39.07c3,0,50.64,5.74,61.55,42.71,3.47,11.77,3.2,31.38-5.67,47.86" style="fill: none;stroke: #010101;stroke-miterlimit: 10;stroke-width: 40px"/>
+      </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+.demo {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.demo .size {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-left: calc(0px - 15%);
+  width: calc(100% + 30%);
+}
+.demo .size > div,
+.demo .size > div > img {
+  width: 100%;
+  display: block;
+}
+.demo .size > div:nth-child(2) {
+  flex-grow: 100;
+  display: flex;
+  align-items: center;
+}
